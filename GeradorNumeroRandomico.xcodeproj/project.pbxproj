@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D93FA8F01E8E870D00D8ADFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93FA8EF1E8E870D00D8ADFD /* AppDelegate.swift */; };
+		D93FA8F21E8E870D00D8ADFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93FA8F11E8E870D00D8ADFD /* ViewController.swift */; };
+		D93FA8F51E8E870D00D8ADFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93FA8F31E8E870D00D8ADFD /* Main.storyboard */; };
+		D93FA8F71E8E870D00D8ADFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93FA8F61E8E870D00D8ADFD /* Assets.xcassets */; };
+		D93FA8FA1E8E870D00D8ADFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93FA8F81E8E870D00D8ADFD /* LaunchScreen.storyboard */; };
+		D93FA9051E8E898500D8ADFD /* botaogerar-pressionado.png in Resources */ = {isa = PBXBuildFile; fileRef = D93FA9021E8E898500D8ADFD /* botaogerar-pressionado.png */; };
+		D93FA9061E8E898500D8ADFD /* botaogerar.png in Resources */ = {isa = PBXBuildFile; fileRef = D93FA9031E8E898500D8ADFD /* botaogerar.png */; };
+		D93FA9071E8E898500D8ADFD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D93FA9041E8E898500D8ADFD /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D93FA8EC1E8E870D00D8ADFD /* GeradorNumeroRandomico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeradorNumeroRandomico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93FA8EF1E8E870D00D8ADFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D93FA8F11E8E870D00D8ADFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D93FA8F41E8E870D00D8ADFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D93FA8F61E8E870D00D8ADFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D93FA8F91E8E870D00D8ADFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D93FA8FB1E8E870D00D8ADFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93FA9021E8E898500D8ADFD /* botaogerar-pressionado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaogerar-pressionado.png"; sourceTree = "<group>"; };
+		D93FA9031E8E898500D8ADFD /* botaogerar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaogerar.png; sourceTree = "<group>"; };
+		D93FA9041E8E898500D8ADFD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D93FA8E91E8E870D00D8ADFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D93FA8E31E8E870C00D8ADFD = {
+			isa = PBXGroup;
+			children = (
+				D93FA8EE1E8E870D00D8ADFD /* GeradorNumeroRandomico */,
+				D93FA8ED1E8E870D00D8ADFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D93FA8ED1E8E870D00D8ADFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D93FA8EC1E8E870D00D8ADFD /* GeradorNumeroRandomico.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D93FA8EE1E8E870D00D8ADFD /* GeradorNumeroRandomico */ = {
+			isa = PBXGroup;
+			children = (
+				D93FA9011E8E898500D8ADFD /* Images */,
+				D93FA8EF1E8E870D00D8ADFD /* AppDelegate.swift */,
+				D93FA8F11E8E870D00D8ADFD /* ViewController.swift */,
+				D93FA8F31E8E870D00D8ADFD /* Main.storyboard */,
+				D93FA8F61E8E870D00D8ADFD /* Assets.xcassets */,
+				D93FA8F81E8E870D00D8ADFD /* LaunchScreen.storyboard */,
+				D93FA8FB1E8E870D00D8ADFD /* Info.plist */,
+			);
+			path = GeradorNumeroRandomico;
+			sourceTree = "<group>";
+		};
+		D93FA9011E8E898500D8ADFD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D93FA9021E8E898500D8ADFD /* botaogerar-pressionado.png */,
+				D93FA9031E8E898500D8ADFD /* botaogerar.png */,
+				D93FA9041E8E898500D8ADFD /* logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D93FA8EB1E8E870D00D8ADFD /* GeradorNumeroRandomico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93FA8FE1E8E870D00D8ADFD /* Build configuration list for PBXNativeTarget "GeradorNumeroRandomico" */;
+			buildPhases = (
+				D93FA8E81E8E870D00D8ADFD /* Sources */,
+				D93FA8E91E8E870D00D8ADFD /* Frameworks */,
+				D93FA8EA1E8E870D00D8ADFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeradorNumeroRandomico;
+			productName = GeradorNumeroRandomico;
+			productReference = D93FA8EC1E8E870D00D8ADFD /* GeradorNumeroRandomico.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D93FA8E41E8E870C00D8ADFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jean Carlos";
+				TargetAttributes = {
+					D93FA8EB1E8E870D00D8ADFD = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 22GD85QNU8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D93FA8E71E8E870C00D8ADFD /* Build configuration list for PBXProject "GeradorNumeroRandomico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D93FA8E31E8E870C00D8ADFD;
+			productRefGroup = D93FA8ED1E8E870D00D8ADFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D93FA8EB1E8E870D00D8ADFD /* GeradorNumeroRandomico */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D93FA8EA1E8E870D00D8ADFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93FA8FA1E8E870D00D8ADFD /* LaunchScreen.storyboard in Resources */,
+				D93FA8F71E8E870D00D8ADFD /* Assets.xcassets in Resources */,
+				D93FA9071E8E898500D8ADFD /* logo.png in Resources */,
+				D93FA9061E8E898500D8ADFD /* botaogerar.png in Resources */,
+				D93FA8F51E8E870D00D8ADFD /* Main.storyboard in Resources */,
+				D93FA9051E8E898500D8ADFD /* botaogerar-pressionado.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D93FA8E81E8E870D00D8ADFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93FA8F21E8E870D00D8ADFD /* ViewController.swift in Sources */,
+				D93FA8F01E8E870D00D8ADFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D93FA8F31E8E870D00D8ADFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D93FA8F41E8E870D00D8ADFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D93FA8F81E8E870D00D8ADFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D93FA8F91E8E870D00D8ADFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D93FA8FC1E8E870D00D8ADFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D93FA8FD1E8E870D00D8ADFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D93FA8FF1E8E870D00D8ADFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22GD85QNU8;
+				INFOPLIST_FILE = GeradorNumeroRandomico/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeancarlosit.GeradorNumeroRandomico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D93FA9001E8E870D00D8ADFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22GD85QNU8;
+				INFOPLIST_FILE = GeradorNumeroRandomico/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeancarlosit.GeradorNumeroRandomico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D93FA8E71E8E870C00D8ADFD /* Build configuration list for PBXProject "GeradorNumeroRandomico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93FA8FC1E8E870D00D8ADFD /* Debug */,
+				D93FA8FD1E8E870D00D8ADFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93FA8FE1E8E870D00D8ADFD /* Build configuration list for PBXNativeTarget "GeradorNumeroRandomico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93FA8FF1E8E870D00D8ADFD /* Debug */,
+				D93FA9001E8E870D00D8ADFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D93FA8E41E8E870C00D8ADFD /* Project object */;
+}
